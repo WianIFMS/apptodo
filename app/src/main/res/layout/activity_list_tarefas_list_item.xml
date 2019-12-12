@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/acitivity_list_tarefas_list_item_campo_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/acitivity_list_tarefas_list_item_campo_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/buttonTarefaFeita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tarefaFeita"
+        android:text="feito" />
+
+
+</LinearLayout>
